@@ -179,7 +179,7 @@ namespace Mk0.Software.OnlineUpdater
             var extension = Path.GetExtension(tempPath);
             if (extension.Equals(".zip", StringComparison.OrdinalIgnoreCase))
             {
-                string installerPath = Path.Combine(Path.GetDirectoryName(tempPath), "ZipExtractor.exe");
+                string installerPath = Path.Combine(Path.GetDirectoryName(tempPath), "Installer.exe");
 
                 try
                 {
